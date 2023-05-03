@@ -1,0 +1,49 @@
+{
+	"components": {
+		"examples": {},
+		"headers": {},
+		"parameters": {},
+		"requestBodies": {},
+		"responses": {},
+		"schemas": {},
+		"securitySchemes": {}
+	},
+	"info": {
+		"title": "chatgpttoanki",
+		"version": "1.0.0",
+		"description": "A app for creating flashcards from uploaded notes for the purposes of studying",
+		"license": {
+			"name": "A license"
+		},
+		"contact": {
+			"name": "Adam Schmidt"
+		}
+	},
+	"openapi": "3.0.0",
+	"paths": {
+		"/anki/foo": {
+			"get": {
+				"operationId": "GetFoo",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		}
+	},
+	"servers": [
+		{
+			"url": "/"
+		}
+	]
+}

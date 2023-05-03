@@ -1,0 +1,18 @@
+{
+  "name": "chatgpttoanki",
+  "version": "1.0.0",
+  "description": "A app for creating flashcards from uploaded notes for the purposes of studying",
+  "main": "dist/src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart" : "tsoa spec-and-routes && tsc",
+    "start": "node dist/src/server.js"
+  },
+  "author": "Adam Schmidt and David Beshensky",
+  "license": "A license",
+  "dependencies": {
+    "express": "^4.18.2",
+    "tsoa": "^5.1.1",
+    "typescript": "^5.0.4"
+  }
+}
