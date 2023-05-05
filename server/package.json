@@ -5,13 +5,16 @@
   "main": "dist/src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart" : "tsoa spec-and-routes && tsc",
+    "prestart": "tsoa spec-and-routes && tsc",
     "start": "node dist/src/server.js"
   },
   "author": "Adam Schmidt and David Beshensky",
   "license": "A license",
   "dependencies": {
+    "anki-apkg-export": "^4.0.3",
     "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "openai": "^3.2.1",
     "tsoa": "^5.1.1",
     "typescript": "^5.0.4"
   }
